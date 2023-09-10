@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+  background-image: url(../images/Background\ Image.png);
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+}
+
+section .container .global .span {
+  color: white;
+  font-size: 120px;
+  font-weight: 100;
+}
+
+section .container .logo {
+  width: 80px;
+}
+
+section .container .text .p-one,
+.p-two {
+  color: white;
+  padding-bottom: 20px;
+  font-weight: 100;
+}
+
+section .container .text .btn {
+  color: yellow;
+  font-weight: 200;
+}
+
+section .container .search #search {
+  outline: none;
+  background-color: transparent;
+  border: 1px solid white;
+  width: 400px;
+  height: 50px;
+  margin-top: 10px;
+}
+
+::placeholder {
+  color: white;
+  padding: 20px;
+  font-weight: normal;
+}
+
+section .container .search .lable {
+  background-color: rgb(65, 62, 62);
+  color: white;
+  padding: 15px 25px;
+  text-transform: uppercase;
+}
